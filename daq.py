@@ -13,7 +13,7 @@ from random import random
 import grequests
 import shutil
 
-urlretrieve("http://207.251.86.238/cctv42.jpg", "00000002.jpg")
+# urlretrieve("http://207.251.86.238/cctv42.jpg", "00000002.jpg")
 
 
 def acquire_current_image(cam_url, save_path):
